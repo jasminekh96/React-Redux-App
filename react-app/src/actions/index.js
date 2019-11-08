@@ -6,7 +6,7 @@ export const FETCH_FAILURE = 'FETCH_FAILURE';
 export const fetchPics = () => (dispatch) => {
 	dispatch({ type: START_FETCHING });
 	axios
-		.get('https://dog.ceo/api/breeds/image/random/3')
+		// .get('https://dog.ceo/api/breeds/image/random/3')
 		.then((res) => {
 			console.log(res.data);
 			return res;
