@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-	width: 30%;
+	width: 400px;
 	height: 600px;
 `;
 const Image = styled.img`
@@ -10,8 +10,6 @@ const Image = styled.img`
 	height: 100%;
 	border-radius: 30px;
 	border: solid 3px #ffc0cb;
-	border-spacing: 15px 50px;
-	margin-top: 100px;
 `;
 const Dog = (props) => {
 	return (

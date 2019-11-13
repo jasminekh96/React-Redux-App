@@ -5,9 +5,11 @@ import { fetchPics } from '../actions';
 import styled from 'styled-components';
 
 const ImagesContainer = styled.div`
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2.0rem;
+	padding: 1rem;
+	justify-items: center;
 `;
 const Loading = styled.h2`
 	font-family: 'Dancing Script', cursive;
