@@ -12,6 +12,8 @@ const Title = styled.h1`
 function App() {
 	return (
 		<div className='App'>
+			{/* <div></div> */}
+			{/* can use this to make a styled comp for background color as a container, set margins to zero in CSS  */}
 			<Title>Random Doggo Images</Title>
 			<DogPic />
 		</div>
