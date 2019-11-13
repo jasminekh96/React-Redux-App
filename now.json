@@ -1,6 +1,6 @@
 {
 	"version": 2,
 	"name": "react-app",
-	"builds": [ { "src": "react-app.package.json", "use": "@now/static-build", "config": { "distDir": "build" } } ],
+	"builds": [ { "src": "react-app/package.json", "use": "@now/static-build", "config": { "distDir": "build" } } ],
 	"routes": [ { "src": "/(.*)", "dest": "react-app/$1" } ]
 }
